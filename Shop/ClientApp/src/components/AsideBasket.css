@@ -1,0 +1,63 @@
+.show {
+  animation-name: show;
+  animation-duration: 1s;
+}
+aside {
+  height: 100vh;
+  margin-top: -55px;
+  width: 30%;
+  margin-left: 70%;
+  position: absolute;
+  background-color: rgb(192, 192, 192);
+}
+.hide {
+
+  animation: hide 1s forwards;
+  overflow: hidden;
+}
+@keyframes hide {
+  0% {
+    margin-left: 70%;
+    width: 30%;
+    opacity: 1;
+  }
+
+  100% {
+    margin-left: 100%;
+    width: 0px;
+    opacity: 0;
+  }
+}
+
+@keyframes show {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.close_container{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+.close{
+    background-color: transparent;
+    border: 0px;
+    margin: 5px;
+}
+.close_icon{
+    width: 30px;
+    height: 30px;
+}
+
+.order{
+    border:2px solid black ;
+    border-radius: 5px;
+    width: 80%;
+    background-color: rgb(114, 184, 255);
+    margin: 10%;
+}

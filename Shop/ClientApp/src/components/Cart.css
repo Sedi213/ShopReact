@@ -1,0 +1,14 @@
+.cart {
+  height: 250px;
+  width: 200px;
+  margin: 30px;
+  background-color: rgb(102, 235, 255);
+  border-radius: 15px;
+}
+.img {
+  width: 200px;
+  height: 150px;
+}
+.p {
+  margin-left: 5px;
+}

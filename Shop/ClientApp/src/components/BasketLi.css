@@ -1,0 +1,32 @@
+.Basket_img{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    margin-top: 15px;
+}
+li{
+    border: 2px solid dimgray;
+    border-radius: 15px;
+    display: flex;
+    margin: 5px;
+}
+.Basket_block{
+    width: 70%;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.counter{
+    width: 10%;
+}
+
+.Up{
+    transform: rotate(180deg);
+}
+
+.count{
+    margin-left: 2px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}

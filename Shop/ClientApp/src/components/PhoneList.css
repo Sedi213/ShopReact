@@ -1,0 +1,6 @@
+.phones{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:330px ;
+    margin-right: 250px;
+}
